@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.title-and-description {
+	margin: 2%;
+}
+
+.title-and-description h1 {
+	style: block;
+	width: 100%;
+	text-align: center;
+	font-size: 4em;
+}
+
+.title-and-description form {
+	style: block;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-size: 1.5em
+}
+
+.title-and-description form input[type=button] {
+	style: block;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background: rgb(255, 100, 20);
+	margin: auto;
+	padding: 10px;
+}
+
+.photo {
+	/* size */
+	width: 10vw;
+	height: 10vw;
+	object-fit: cover;
+	
+	/* border and margin */
+	border: 2px black solid;
+	margin: 5px;
+}

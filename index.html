@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Galeria de fotos</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<section class="title-and-description">
+			<h1>Galeria de fotos</h1>
+			<form class="submitImageForm" method="POST" enctype="multipart/form-data">
+				<label for="uploadFile">Adicionar foto: </label>
+				<input type="file" id="uploadFile" name="filename" accept="image/*"><br>
+				<span id="error-message"></span><br>
+				<input type="button" class="submitImage" value="Submit image">
+			</form>
+		</section>
+	</header>
+	<hr>
+	<main>
+		<section class="photos">
+			<!-- Photos will go here -->
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
